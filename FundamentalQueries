@@ -1,1 +1,19 @@
+1)- Find the Nth highest value(like sal, etc) in a column of a table ?
+
+2)- Find the values in a text column of a table that start with a certain letter?
+
+SELECT * FROM table_name
+WHERE surname LIKE 'A_';
+
+or
+
+SELECT * FROM table_name
+WHERE surname LIKE 'A%';
+
+3)- How do you find the last id in a table?
+
+SELECT id FROM table_name ORDER BY id DESC
+LIMIT 1;
+
+4)- 
 
